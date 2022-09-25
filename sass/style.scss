@@ -90,56 +90,56 @@ header {
 	}
 }
 
-	h1 {
-		text-transform: uppercase;
-		font-size: 3.0rem;
-	}
+h1 {
+	text-transform: uppercase;
+	font-size: 3rem;
+}
 
-	.hero-img {
-		position: relative;
-		height: 100vh;
-		background-image: url('../img/header-mini.jpg');
-		background-size: cover;
-		background-position: center;
-		background-attachment: fixed;
-		z-index: 0;
-	}
+.hero-img {
+	position: relative;
+	height: 100vh;
+	background-image: url('../img/header-mini.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	z-index: 0;
+}
 
-	.btn-outline-light {
-		font-size: 1.4rem;
-		text-transform: uppercase;
-	}
-	.fa-chevron-down {
-		position: absolute;
-		bottom: 0.5em;
-		font-size: 2.4rem;
-		left: 50%;
-		transform: translateX(-50%);
-		color: $white;
-	}
+.btn-outline-light {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+.fa-chevron-down {
+	position: absolute;
+	bottom: 0.5em;
+	font-size: 2.4rem;
+	left: 50%;
+	transform: translateX(-50%);
+	color: $white;
+}
 
-	.fa-chevron-down:hover {
-		color: $main-color;
-	}
+.fa-chevron-down:hover {
+	color: $main-color;
+}
 
-	.hero-shadow {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		background-color: rgba(0, 0, 0, 0.6);
-		z-index: -10;
-	}
+.hero-shadow {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -10;
+}
 
-	.hero-text {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		height: 100%;
-		padding: 0.5em;
-		text-align: center;
-		z-index: 5;
-	}
+.hero-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	padding: 0.5em;
+	text-align: center;
+	z-index: 5;
+}
 
 .shadow-bg {
 	background-color: rgba(0, 0, 0, 0.8);
@@ -463,77 +463,68 @@ footer {
 
 	//USŁUGI
 
-.services-item {
+	.services-item {
+		i {
+			font-size: 4rem;
+		}
 
-	i {
-		font-size: 4rem;
-	}
-
-	.services-title {
-		font-size: 2.4rem;
-	}
-	.services-text {
-		font-size: 1.8rem;
-	}
-}
-
-
-//OPINIE
-
-.reviews {
-
-	&__box-info {
-		strong {
-			font-size: 2.4em;
-			color: $black;
+		.services-title {
+			font-size: 2.4rem;
+		}
+		.services-text {
+			font-size: 1.8rem;
 		}
 	}
 
-	&__box-quote {
-		font-size: 2.4rem;
+	//OPINIE
+
+	.reviews {
+		&__box-info {
+			strong {
+				font-size: 2.4em;
+				color: $black;
+			}
+		}
+
+		&__box-quote {
+			font-size: 2.4rem;
+		}
+
+		&__box-text {
+			font-size: 2rem;
+		}
+
+		&__boxes {
+			&-text {
+				p {
+					font-size: 2rem;
+				}
+			}
+		}
 	}
 
-	&__box-text {
-		font-size: 2rem;
-	}
+	//KONTAKT
 
-	&__boxes {
-		&-text {
+	.contact {
+		background-image: url('../img/contact-bg-big.jpg');
+
+		.contact-item {
+			h3 {
+				font-size: 2.4rem;
+			}
 
 			p {
 				font-size: 2rem;
 			}
 		}
-	}
-}
-
-
-
-	//KONTAKT
-
-.contact {
-	background-image: url('../img/contact-bg-big.jpg');
-
-
-	.contact-item {
-		h3 {
-
+		.social-media {
 			font-size: 2.4rem;
-
 		}
+	}
 
+	footer {
 		p {
 			font-size: 2rem;
 		}
 	}
-	.social-media {
-		font-size: 2.4rem;
-	}
-}
-
-footer {
-	p {
-		font-size: 2rem;
-	}
-}
 }
